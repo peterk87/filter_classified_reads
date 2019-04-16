@@ -1,0 +1,298 @@
+ 71.27	7127	7127	U	0	unclassified
+ 28.73	2873	0	-	1	root
+ 28.31	2831	0	D	10239	  Viruses
+ 28.31	2831	0	-	439488	    ssRNA viruses
+ 28.31	2831	0	-	35301	      ssRNA negative-strand viruses
+ 28.31	2831	0	F	11308	        Orthomyxoviridae
+ 28.28	2828	0	G	197911	          Influenzavirus A
+ 28.28	2828	1193	S	11320	            Influenza A virus
+ 16.13	1613	988	-	119210	              H3N2 subtype
+  0.74	74	74	-	1731514	                Influenza A virus (A/Nevada/18/2014(H3N2))
+  0.70	70	70	-	1737274	                Influenza A virus (A/Prague/1514A06404885N/2012(H3N2))
+  0.61	61	61	-	2019602	                Influenza A virus (A/Maryland/37/2017(H3N2))
+  0.47	47	47	-	2051185	                Influenza A virus (A/Nebraska/10/2017(H3N2))
+  0.39	39	39	-	2044021	                Influenza A virus (A/Sydney/327/2014(H3N2))
+  0.33	33	33	-	1960467	                Influenza A virus (A/Pennsylvania/118/2016(H3N2))
+  0.22	22	22	-	1590920	                Influenza A virus (A/Thailand/CU-B8127/2013(H3N2))
+  0.22	22	22	-	2039189	                Influenza A virus (A/Louisiana/48/2017(H3N2))
+  0.15	15	15	-	1468783	                Influenza A virus (A/New York/1192/2009(H3N2))
+  0.11	11	11	-	1972361	                Influenza A virus (A/Oklahoma/09/2017(H3N2))
+  0.09	9	9	-	1549999	                Influenza A virus (A/Connecticut/Flu166/2013(H3N2))
+  0.07	7	7	-	1910704	                Influenza A virus (A/New Hampshire/20/2016(H3N2))
+  0.06	6	6	-	1043090	                Influenza A virus (A/Taiwan/145/2003(H3N2))
+  0.05	5	5	-	2043759	                Influenza A virus (A/Canberra/11/2016(H3N2))
+  0.04	4	4	-	2044189	                Influenza A virus (A/Victoria/52/2016(H3N2))
+  0.04	4	4	-	2053244	                Influenza A virus (A/Arkansas/26/2017(H3N2))
+  0.03	3	3	-	1737225	                Influenza A virus (A/Kuwait/F083/2014(H3N2))
+  0.03	3	3	-	1984874	                Influenza A virus (A/Arkansas/17/2017(H3N2))
+  0.02	2	2	-	342524	                Influenza A virus (A/New York/460/1999(H3N2))
+  0.02	2	2	-	1507953	                Influenza A virus (A/Ho Chi Minh/652.8/2010(H3N2))
+  0.02	2	2	-	1639317	                Influenza A virus (A/Maryland/18/2014(H3N2))
+  0.02	2	2	-	2039199	                Influenza A virus (A/Mississippi/18/2017(H3N2))
+  0.02	2	2	-	2043675	                Influenza A virus (A/Brisbane/1005/2015(H3N2))
+  0.02	2	2	-	2043988	                Influenza A virus (A/Sydney/1092/2016(H3N2))
+  0.02	2	2	-	2058036	                Influenza A virus (A/New York/39/2017(H3N2))
+  0.02	2	2	-	2066242	                Influenza A virus (A/Missouri/40/2017(H3N2))
+  0.02	2	2	-	2066304	                Influenza A virus (A/South Dakota/36/2017(H3N2))
+  0.01	1	1	-	221021	                Influenza A virus (A/Hungary/2/1971(H3N2))
+  0.01	1	1	-	311620	                Influenza A virus (A/New York/42/2003(H3N2))
+  0.01	1	1	-	311716	                Influenza A virus (A/New York/147/1999(H3N2))
+  0.01	1	1	-	361232	                Influenza A virus (A/Aichi/165/2005(H3N2))
+  0.01	1	1	-	382995	                Influenza A virus (A/New York/654/1994(H3N2))
+  0.01	1	1	-	384234	                Influenza A virus (A/Aichi/197/2005(H3N2))
+  0.01	1	1	-	411206	                Influenza A virus (A/Queensland/52/2005(H3N2))
+  0.01	1	1	-	419425	                Influenza A virus (A/Aichi/113/2006(H3N2))
+  0.01	1	1	-	457471	                Influenza A virus (A/Thailand/CU260/2006(H3N2))
+  0.01	1	1	-	499338	                Influenza A virus (A/Hong Kong/CUHK21742/2002(H3N2))
+  0.01	1	1	-	518974	                Influenza A virus (A/Nepal/921/2006(H3N2))
+  0.01	1	1	-	537941	                Influenza A virus (A/Siena/10/1990(H3N2))
+  0.01	1	1	-	593192	                Influenza A virus (A/Kentucky/UR07-0108/2008(H3N2))
+  0.01	1	1	-	631285	                Influenza A virus (A/Cambodia/Q342/2006(H3N2))
+  0.01	1	1	-	653164	                Influenza A virus (A/Sendai/TU204/2008(H3N2))
+  0.01	1	1	-	676017	                Influenza A virus (A/Thailand/CU-B106/2009(H3N2))
+  0.01	1	1	-	682012	                Influenza A virus (A/Shanghai/N14/2008(H3N2))
+  0.01	1	1	-	686656	                Influenza A virus (A/Beijing/403/2009(H3N2))
+  0.01	1	1	-	751366	                Influenza A virus (A/Gansu-Chengguan/1245/2007(H3N2))
+  0.01	1	1	-	765597	                Influenza A virus (A/California/VRDL233/2009(H3N2))
+  0.01	1	1	-	871626	                Influenza A virus (A/Dakar/WRAIR0011T/2009(H3N2))
+  0.01	1	1	-	983995	                Influenza A virus (A/swine/Pennsylvania/057108-1/2010(H3N2))
+  0.01	1	1	-	1030637	                Influenza A virus (A/Quebec/168145/2011(H3N2))
+  0.01	1	1	-	1054688	                Influenza A virus (A/Malaysia/13241/1997(H3N2))
+  0.01	1	1	-	1056064	                Influenza A virus (A/Mexico City/WRAIR3577T/2010(H3N2))
+  0.01	1	1	-	1086913	                Influenza A virus (A/Lyon/2279/1995(H3N2))
+  0.01	1	1	-	1086980	                Influenza A virus (A/Netherlands/91/1996(H3N2))
+  0.01	1	1	-	1093030	                Influenza A virus (A/Boston/DOA52/2011(H3N2))
+  0.01	1	1	-	1108827	                Influenza A virus (A/Mexico/InDRE2246/2005(H3N2))
+  0.01	1	1	-	1292977	                Influenza A virus (A/Texas/JMM_14/2012(H3N2))
+  0.01	1	1	-	1292997	                Influenza A virus (A/Texas/JMM_32/2012(H3N2))
+  0.01	1	1	-	1316234	                Influenza A virus (A/Tehran/817/2012(H3N2))
+  0.01	1	1	-	1334288	                Influenza A virus (A/Acre/117691/2012(H3N2))
+  0.01	1	1	-	1346399	                Influenza A virus (A/Houston/JMM_150/2013(H3N2))
+  0.01	1	1	-	1348507	                Influenza A virus (A/swine/Henan/1/2010(H3N2))
+  0.01	1	1	-	1396918	                Influenza A virus (A/Boston/DOA2-222/2012(H3N2))
+  0.01	1	1	-	1400970	                Influenza A virus (A/India/LKO896/2011(H3N2))
+  0.01	1	1	-	1416102	                Influenza A virus (A/Georgia/16/2012(H3N2))
+  0.01	1	1	-	1416256	                Influenza A virus (A/Oklahoma/04/2012(H3N2))
+  0.01	1	1	-	1425890	                Influenza A virus (A/Peru/PER242/2010(H3N2))
+  0.01	1	1	-	1441411	                Influenza A virus (A/Hawaii/3440/2013(H3N2))
+  0.01	1	1	-	1461940	                Influenza A virus (A/Boston/YGA_02039/2013(H3N2))
+  0.01	1	1	-	1462117	                Influenza A virus (A/Boston/YGA_01183/2013(H3N2))
+  0.01	1	1	-	1468750	                Influenza A virus (A/New York/1103/2007(H3N2))
+  0.01	1	1	-	1497191	                Influenza A virus (A/Habana/1678/2013(H3N2))
+  0.01	1	1	-	1501126	                Influenza A virus (A/Thailand/VIROAF2CS/2012(H3N2))
+  0.01	1	1	-	1517287	                Influenza A virus (A/Singapore/C2012.247/2012(H3N2))
+  0.01	1	1	-	1522612	                Influenza A virus (A/Nicaragua/6898_05/2013(H3N2))
+  0.01	1	1	-	1566482	                Influenza A virus (A/Para/128960-IEC/2014(H3N2))
+  0.01	1	1	-	1589879	                Influenza A virus (A/Nicaragua/5892_01_TR1/2013(H3N2))
+  0.01	1	1	-	1590860	                Influenza A virus (A/Thailand/CU-B10422/2014(H3N2))
+  0.01	1	1	-	1603409	                Influenza A virus (A/Beijing/60642/2014(H3N2))
+  0.01	1	1	-	1623211	                Influenza A virus (A/Bangkok/SI-MI29/2015(H3N2))
+  0.01	1	1	-	1676065	                Influenza A virus (A/California/NHRC_FDX21707/2015(H3N2))
+  0.01	1	1	-	1731113	                Influenza A virus (A/Florida/27/2015(H3N2))
+  0.01	1	1	-	1731270	                Influenza A virus (A/Iowa/12/2015(H3N2))
+  0.01	1	1	-	1731499	                Influenza A virus (A/Nebraska/02/2015(H3N2))
+  0.01	1	1	-	1731672	                Influenza A virus (A/Ohio/12/2014(H3N2))
+  0.01	1	1	-	1731849	                Influenza A virus (A/Texas/85/2014(H3N2))
+  0.01	1	1	-	1731948	                Influenza A virus (A/Wisconsin/03/2015(H3N2))
+  0.01	1	1	-	1737248	                Influenza A virus (A/Moscow/1514A00504307T_CP2/2011(H3N2))
+  0.01	1	1	-	1737256	                Influenza A virus (A/Nebraska/32/2012(H3N2))
+  0.01	1	1	-	1788625	                Influenza A virus (A/California/89/2015(H3N2))
+  0.01	1	1	-	1788719	                Influenza A virus (A/Michigan/62/2015(H3N2))
+  0.01	1	1	-	1788739	                Influenza A virus (A/Montana/29/2015(H3N2))
+  0.01	1	1	-	1820552	                Influenza A virus (A/swine/Mexico/AVX28/2012(H3N2))
+  0.01	1	1	-	1820557	                Influenza A virus (A/swine/Mexico/AVX32/2012(H3N2))
+  0.01	1	1	-	1865703	                Influenza A virus (A/Arkansas/02/2016(H3N2))
+  0.01	1	1	-	1865705	                Influenza A virus (A/California/02/2016(H3N2))
+  0.01	1	1	-	1865716	                Influenza A virus (A/California/112/2015(H3N2))
+  0.01	1	1	-	1865769	                Influenza A virus (A/California/96/2016(H3N2))
+  0.01	1	1	-	1865898	                Influenza A virus (A/Indiana/24/2016(H3N2))
+  0.01	1	1	-	1866052	                Influenza A virus (A/Oregon/04/2016(H3N2))
+  0.01	1	1	-	1866055	                Influenza A virus (A/Oregon/12/2016(H3N2))
+  0.01	1	1	-	1866149	                Influenza A virus (A/Washington/08/2016(H3N2))
+  0.01	1	1	-	1909874	                Influenza A virus (A/Connecticut/19/2016(H3N2))
+  0.01	1	1	-	1910242	                Influenza A virus (A/Utah/42/2016(H3N2))
+  0.01	1	1	-	1914485	                Influenza A virus (A/Suwon/C276/2012(H3N2))
+  0.01	1	1	-	1914506	                Influenza A virus (A/blue-winged teal/Lousiana/UGAI14-0420/2014(H3N2))
+  0.01	1	1	-	1915297	                Influenza A virus (A/New Jersey/NHRC_93457/2016(H3N2))
+  0.01	1	1	-	1916587	                Influenza A virus (A/Rhode Island/19/2015(H3N2))
+  0.01	1	1	-	1917592	                Influenza A virus (A/Michigan/104/2016(H3N2))
+  0.01	1	1	-	1925175	                Influenza A virus (A/Florida/84/2016(H3N2))
+  0.01	1	1	-	1928984	                Influenza A virus (A/South Dakota/32/2016(H3N2))
+  0.01	1	1	-	1932462	                Influenza A virus (A/Connecticut/36/2016(H3N2))
+  0.01	1	1	-	1932475	                Influenza A virus (A/Georgia/61/2016(H3N2))
+  0.01	1	1	-	1933257	                Influenza A virus (A/Israel/R274/2016(H3N2))
+  0.01	1	1	-	1936877	                Influenza A virus (A/Delaware/35/2016(H3N2))
+  0.01	1	1	-	1937311	                Influenza A virus (A/Columbia/P0041/2014(H3N2))
+  0.01	1	1	-	1940378	                Influenza A virus (A/Indiana/47/2016(H3N2))
+  0.01	1	1	-	1948967	                Influenza A virus (A/New Hampshire/01/2017(H3N2))
+  0.01	1	1	-	1948991	                Influenza A virus (A/Tennessee/37/2016(H3N2))
+  0.01	1	1	-	1959295	                Influenza A virus (A/Columbia/P0099/2014(H3N2))
+  0.01	1	1	-	1960445	                Influenza A virus (A/New Jersey/02/2017(H3N2))
+  0.01	1	1	-	1960460	                Influenza A virus (A/Ohio/02/2017(H3N2))
+  0.01	1	1	-	1960493	                Influenza A virus (A/Virginia/08/2017(H3N2))
+  0.01	1	1	-	1961972	                Influenza A virus (A/Washington/99/2016(H3N2))
+  0.01	1	1	-	1961988	                Influenza A virus (A/Delaware/03/2017(H3N2))
+  0.01	1	1	-	1964243	                Influenza A virus (A/Saudi Arabia/27/2015(H3N2))
+  0.01	1	1	-	1964651	                Influenza A virus (A/Alabama/07/2017(H3N2))
+  0.01	1	1	-	1964670	                Influenza A virus (A/Delaware/06/2017(H3N2))
+  0.01	1	1	-	1964718	                Influenza A virus (A/Oregon/06/2017(H3N2))
+  0.01	1	1	-	1968222	                Influenza A virus (A/Iowa/08/2017(H3N2))
+  0.01	1	1	-	1968226	                Influenza A virus (A/Nebraska/04/2017(H3N2))
+  0.01	1	1	-	1972107	                Influenza A virus (A/Bangladesh/01/2012(H3N2))
+  0.01	1	1	-	1973758	                Influenza A virus (A/Delaware/13/2017(H3N2))
+  0.01	1	1	-	1973772	                Influenza A virus (A/Idaho/12/2017(H3N2))
+  0.01	1	1	-	1973798	                Influenza A virus (A/Rhode Island/03/2017(H3N2))
+  0.01	1	1	-	1978596	                Influenza A virus (A/Canoas/LACENRS-1793/2015(H3N2))
+  0.01	1	1	-	1978639	                Influenza A virus (A/Pelotas/LACENRS-1787/2015(H3N2))
+  0.01	1	1	-	1978693	                Influenza A virus (A/Rio Grande/LACENRS-3171/2013(H3N2))
+  0.01	1	1	-	1978725	                Influenza A virus (A/Sapucaia do Sul/LACENRS-779/2011(H3N2))
+  0.01	1	1	-	1978749	                Influenza A virus (A/Viamao/LACENRS-974/2015(H3N2))
+  0.01	1	1	-	1978924	                Influenza A virus (A/Alaska/10/2017(H3N2))
+  0.01	1	1	-	1979009	                Influenza A virus (A/Tennessee/41/2016(H3N2))
+  0.01	1	1	-	1980331	                Influenza A virus (A/Baltimore/0253/2017(H3N2))
+  0.01	1	1	-	1980357	                Influenza A virus (A/Keelung/0081/2016(H3N2))
+  0.01	1	1	-	1980788	                Influenza A virus (A/Indiana/20/2017(H3N2))
+  0.01	1	1	-	1980814	                Influenza A virus (A/New Jersey/16/2017(H3N2))
+  0.01	1	1	-	1984918	                Influenza A virus (A/Michigan/28/2017(H3N2))
+  0.01	1	1	-	1984957	                Influenza A virus (A/South Carolina/11/2017(H3N2))
+  0.01	1	1	-	1984968	                Influenza A virus (A/Vermont/10/2017(H3N2))
+  0.01	1	1	-	1987175	                Influenza A virus (A/Alaska/12/2017(H3N2))
+  0.01	1	1	-	2006037	                Influenza A virus (A/South Carolina/NHRC_JX41626/2016(H3N2))
+  0.01	1	1	-	2014211	                Influenza A virus (A/New Hampshire/20/2017(H3N2))
+  0.01	1	1	-	2015241	                Influenza A virus (A/Nicaragua/6585_04/2014(H3N2))
+  0.01	1	1	-	2019582	                Influenza A virus (A/Florida/39/2017(H3N2))
+  0.01	1	1	-	2019584	                Influenza A virus (A/Florida/41/2017(H3N2))
+  0.01	1	1	-	2019622	                Influenza A virus (A/South Carolina/15/2017(H3N2))
+  0.01	1	1	-	2019634	                Influenza A virus (A/Texas/77/2017(H3N2))
+  0.01	1	1	-	2019661	                Influenza A virus (A/Wisconsin/43/2017(H3N2))
+  0.01	1	1	-	2030109	                Influenza A virus (A/Arizona/46/2017(H3N2))
+  0.01	1	1	-	2033542	                Influenza A virus (A/Connecticut/27/2017(H3N2))
+  0.01	1	1	-	2034136	                Influenza A virus (A/Canada/Community_8/2014(H3N2))
+  0.01	1	1	-	2035465	                Influenza A virus (A/Alaska/34/2017(H3N2))
+  0.01	1	1	-	2035466	                Influenza A virus (A/Alaska/35/2017(H3N2))
+  0.01	1	1	-	2037513	                Influenza A virus (A/Washington/5797/2017(H3N2))
+  0.01	1	1	-	2043708	                Influenza A virus (A/Brisbane/193/2013(H3N2))
+  0.01	1	1	-	2043880	                Influenza A virus (A/South Australia/119/2015(H3N2))
+  0.01	1	1	-	2043888	                Influenza A virus (A/South Australia/137/2016(H3N2))
+  0.01	1	1	-	2043901	                Influenza A virus (A/South Australia/160/2016(H3N2))
+  0.01	1	1	-	2043972	                Influenza A virus (A/Sydney/1020/2015(H3N2))
+  0.01	1	1	-	2043982	                Influenza A virus (A/Sydney/1036/2015(H3N2))
+  0.01	1	1	-	2043992	                Influenza A virus (A/Sydney/129/2016(H3N2))
+  0.01	1	1	-	2044002	                Influenza A virus (A/Sydney/200/2012(H3N2))
+  0.01	1	1	-	2044094	                Influenza A virus (A/Victoria/109/2016(H3N2))
+  0.01	1	1	-	2044173	                Influenza A virus (A/Victoria/5065/2014(H3N2))
+  0.01	1	1	-	2044174	                Influenza A virus (A/Victoria/5070/2014(H3N2))
+  0.01	1	1	-	2051151	                Influenza A virus (A/Georgia/12/2017(H3N2))
+  0.01	1	1	-	2051192	                Influenza A virus (A/North Carolina/34/2017(H3N2))
+  0.01	1	1	-	2051205	                Influenza A virus (A/Wisconsin/327/2017(H3N2))
+  0.01	1	1	-	2053262	                Influenza A virus (A/Missouri/31/2017(H3N2))
+  0.01	1	1	-	2054943	                Influenza A virus (A/California/105/2017(H3N2))
+  0.01	1	1	-	2054950	                Influenza A virus (A/California/85/2017(H3N2))
+  0.01	1	1	-	2054985	                Influenza A virus (A/Montana/24/2017(H3N2))
+  0.01	1	1	-	2058053	                Influenza A virus (A/Texas/293/2017(H3N2))
+  0.01	1	1	-	2066148	                Influenza A virus (A/Arizona/62/2017(H3N2))
+  0.01	1	1	-	2066201	                Influenza A virus (A/Hawaii/53/2017(H3N2))
+  0.01	1	1	-	2066225	                Influenza A virus (A/Massachusetts/18/2017(H3N2))
+  0.01	1	1	-	2066251	                Influenza A virus (A/Montana/38/2017(H3N2))
+  0.01	1	1	-	2066256	                Influenza A virus (A/Nevada/23/2017(H3N2))
+  0.01	1	1	-	2066263	                Influenza A virus (A/New Jersey/32/2017(H3N2))
+  0.01	1	1	-	2066270	                Influenza A virus (A/New York/40/2017(H3N2))
+  0.01	1	1	-	2069501	                Influenza A virus (A/Colorado/22/2017(H3N2))
+  0.01	1	1	-	2069510	                Influenza A virus (A/Hawaii/58/2017(H3N2))
+  0.01	1	1	-	2069535	                Influenza A virus (A/Oregon/27/2017(H3N2))
+  0.01	1	1	-	2072075	                Influenza A virus (A/Indiana/33/2017(H3N2))
+  0.01	1	1	-	2072078	                Influenza A virus (A/Kansas/11/2017(H3N2))
+  0.01	1	1	-	2072094	                Influenza A virus (A/Montana/42/2017(H3N2))
+  0.01	1	1	-	2072106	                Influenza A virus (A/New Mexico/32/2017(H3N2))
+  0.01	1	1	-	2072118	                Influenza A virus (A/Ohio/52/2017(H3N2))
+  0.01	1	1	-	2072132	                Influenza A virus (A/Texas/313/2017(H3N2))
+  0.07	7	0	-	114727	              H1N1 subtype
+  0.01	1	1	-	653169	                Influenza A virus (A/Sendai/TU101/2006(H1N1))
+  0.01	1	1	-	686531	                Influenza A virus (A/Texas/45103759/2009(H1N1))
+  0.01	1	1	-	761820	                Influenza A virus (A/Mexico city/CIA8/2009(H1N1))
+  0.01	1	1	-	943978	                Influenza A virus (A/KOL/536/2007(H1N1))
+  0.01	1	1	-	1041369	                Influenza A virus (A/cat/France/0514/2009(H1N1))
+  0.01	1	1	-	1410470	                Influenza A virus (A/Kazan/CRIE-03/2013(H1N1))
+  0.01	1	1	-	1645885	                Influenza A virus (A/England/WTSI2051/2011(H1N1))
+  0.04	4	3	-	102796	              H9N2 subtype
+  0.01	1	1	-	463386	                Influenza A virus (A/quail/Guangxi/B1/2006(H9N2))
+  0.04	4	0	-	329376	              H5N6 subtype
+  0.04	4	4	-	1809223	                Influenza A virus (A/environment/Guangdong/GZ693/2015(H5N6))
+  0.03	3	0	-	114728	              H1N2 subtype
+  0.02	2	2	-	926442	                Influenza A virus (A/swine/Aomori/1/2005(H1N2))
+  0.01	1	1	-	358581	                Influenza A virus (A/swine/Ontario/52156/03(H1N2))
+  0.01	1	0	-	102793	              H5N1 subtype
+  0.01	1	1	-	1214629	                Influenza A virus (A/duck/Bac Lieu/1213/2007(H5N1))
+  0.01	1	0	-	102797	              Influenza A virus with incomplete names
+  0.01	1	1	-	2015259	                Influenza A virus (A/Nicaragua/5127_12/2014(H3))
+  0.01	1	1	-	119220	              H5N2 subtype
+  0.01	1	1	-	157802	              H3N1 subtype
+  0.03	3	0	G	197912	          Influenzavirus B
+  0.03	3	1	S	11520	            Influenza B virus
+  0.01	1	1	-	2007810	              Influenza B virus (B/Alberta/010/2016)
+  0.01	1	1	-	2011111	              Influenza B virus (B/New York/WC-LVD-15-011/2015)
+  0.42	42	0	-	131567	  cellular organisms
+  0.39	39	1	D	2	    Bacteria
+  0.37	37	1	P	1224	      Proteobacteria
+  0.32	32	0	C	28216	        Betaproteobacteria
+  0.32	32	0	O	80840	          Burkholderiales
+  0.32	32	0	F	119060	            Burkholderiaceae
+  0.25	25	0	G	44013	              Polynucleobacter
+  0.25	25	25	S	576610	                Polynucleobacter necessarius
+  0.07	7	0	G	48736	              Ralstonia
+  0.07	7	7	S	305	                Ralstonia solanacearum
+  0.04	4	0	C	1236	        Gammaproteobacteria
+  0.04	4	0	O	91347	          Enterobacterales
+  0.04	4	0	F	543	            Enterobacteriaceae
+  0.04	4	0	G	561	              Escherichia
+  0.04	4	4	S	562	                Escherichia coli
+  0.01	1	0	-	1783270	      FCB group
+  0.01	1	0	-	68336	        Bacteroidetes/Chlorobi group
+  0.01	1	0	P	976	          Bacteroidetes
+  0.01	1	0	C	200643	            Bacteroidia
+  0.01	1	0	O	171549	              Bacteroidales
+  0.01	1	1	F	171552	                Prevotellaceae
+  0.03	3	1	D	2759	    Eukaryota
+  0.02	2	0	-	33154	      Opisthokonta
+  0.02	2	0	K	33208	        Metazoa
+  0.02	2	0	-	6072	          Eumetazoa
+  0.02	2	0	-	33213	            Bilateria
+  0.02	2	0	-	33511	              Deuterostomia
+  0.02	2	0	P	7711	                Chordata
+  0.02	2	0	-	89593	                  Craniata
+  0.02	2	0	-	7742	                    Vertebrata
+  0.02	2	0	-	7776	                      Gnathostomata
+  0.02	2	0	-	117570	                        Teleostomi
+  0.02	2	0	-	117571	                          Euteleostomi
+  0.01	1	0	-	7898	                            Actinopterygii
+  0.01	1	0	C	186623	                              Actinopteri
+  0.01	1	0	-	41665	                                Neopterygii
+  0.01	1	0	-	32443	                                  Teleostei
+  0.01	1	0	-	1489341	                                    Osteoglossocephalai
+  0.01	1	0	-	186625	                                      Clupeocephala
+  0.01	1	0	-	1489388	                                        Euteleosteomorpha
+  0.01	1	0	-	123365	                                          Neoteleostei
+  0.01	1	0	-	123366	                                            Eurypterygia
+  0.01	1	0	-	123367	                                              Ctenosquamata
+  0.01	1	0	-	123368	                                                Acanthomorphata
+  0.01	1	0	-	123369	                                                  Euacanthomorphacea
+  0.01	1	0	-	1489872	                                                    Percomorphaceae
+  0.01	1	0	-	1489922	                                                      Eupercaria
+  0.01	1	0	-	1489923	                                                        Eupercaria incertae sedis
+  0.01	1	0	F	30870	                                                          Sciaenidae
+  0.01	1	0	G	215357	                                                            Larimichthys
+  0.01	1	1	S	215358	                                                              Larimichthys crocea
+  0.01	1	0	-	8287	                            Sarcopterygii
+  0.01	1	0	-	1338369	                              Dipnotetrapodomorpha
+  0.01	1	0	-	32523	                                Tetrapoda
+  0.01	1	0	-	32524	                                  Amniota
+  0.01	1	0	C	40674	                                    Mammalia
+  0.01	1	0	-	32525	                                      Theria
+  0.01	1	0	-	9347	                                        Eutheria
+  0.01	1	0	-	1437010	                                          Boreoeutheria
+  0.01	1	0	-	314145	                                            Laurasiatheria
+  0.01	1	0	O	9362	                                              Insectivora
+  0.01	1	0	F	9363	                                                Erinaceidae
+  0.01	1	0	-	30577	                                                  Erinaceinae
+  0.01	1	0	G	9364	                                                    Erinaceus
+  0.01	1	1	S	9365	                                                      Erinaceus europaeus
