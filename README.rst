@@ -35,6 +35,8 @@ Usage
 
 Paired-end reads with classification results by both Kraken2_ and Centrifuge_
 
+.. code-block::
+
     filter_classified_reads -i /path/to/reads/R1.fq \
                             -I /path/to/reads/R2.fq \
                             -o  /path/to/reads/R1.filtered.fq \
@@ -47,6 +49,8 @@ Paired-end reads with classification results by both Kraken2_ and Centrifuge_
 
 Using test data in `tests/data/`:
 
+.. code-block::
+
     $ filter_classified_reads -i tests/data/SRR8207674_1.viral_unclassified.seqtk_seed42_n10000.fastq.gz \
                               -I tests/data/SRR8207674_2.viral_unclassified.seqtk_seed42_n10000.fastq.gz \
                               -o r1.fq \
@@ -57,6 +61,8 @@ Using test data in `tests/data/`:
                               -C tests/data/SRR8207674-centrifuge_kreport.tsv
 
 You should see the following log information:
+
+.. code-block::
 
     2019-04-16 13:40:34,114 INFO: Parsing centrifuge results into DataFrame [in target_classified_reads.py:49]
     2019-04-16 13:40:34,168 INFO: Parsed n=12281 centrifuge result records into DataFrame from "tests/data/SRR8207674-centrifuge_results.tsv" [in target_classified_reads.py:57]
