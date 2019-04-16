@@ -6,8 +6,8 @@ filter_classified_reads
 .. image:: https://img.shields.io/pypi/v/filter_classified_reads.svg
         :target: https://pypi.python.org/pypi/filter_classified_reads
 
-.. image:: https://img.shields.io/travis/peterk87/filter_classified_reads.svg
-        :target: https://travis-ci.com/peterk87/filter_classified_reads
+.. image:: https://travis-ci.com/peterk87/filter_classified_reads.svg?branch=master
+    :target: https://travis-ci.com/peterk87/filter_classified_reads
 
 .. image:: https://readthedocs.org/projects/filter-classified-reads/badge/?version=latest
         :target: https://filter-classified-reads.readthedocs.io/en/latest/?badge=latest
