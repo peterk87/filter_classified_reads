@@ -28,7 +28,7 @@ Features
 
 * Filter for union of reads classified to taxa of interest Kraken2_ and Centrifuge_ (by default filter for Viral reads (taxid=10239))
 * Output unclassified reads along with reads from taxa of interest *or* exlude them with `--exclude-unclassified`
-* screed_ for quickly filtering reads
+* seqtk_ for quickly filtering reads and pbgzip_ for parallel block Gzip compression of output reads (recommended that these dependencies are installed with Conda_)
 
 Usage
 -----
@@ -39,8 +39,8 @@ Paired-end reads with classification results by both Kraken2_ and Centrifuge_
 
     filter_classified_reads -i /path/to/reads/R1.fq \
                             -I /path/to/reads/R2.fq \
-                            -o  /path/to/reads/R1.filtered.fq \
-                            -O  /path/to/reads/R2.filtered.fq \
+                            -o  /path/to/reads/R1.filtered.fq.gz \
+                            -O  /path/to/reads/R2.filtered.fq.gz \
                             -k  /path/to/kraken2/results.tsv \
                             -K  /path/to/kraken2/kreport.tsv \
                             -c  /path/to/centrifuge/results.tsv \
@@ -53,8 +53,8 @@ Using test data in `tests/data/`:
 
     $ filter_classified_reads -i tests/data/SRR8207674_1.viral_unclassified.seqtk_seed42_n10000.fastq.gz \
                               -I tests/data/SRR8207674_2.viral_unclassified.seqtk_seed42_n10000.fastq.gz \
-                              -o r1.fq \
-                              -O r2.fq \
+                              -o r1.fq.gz \
+                              -O r2.fq.gz \
                               -k tests/data/SRR8207674-kraken2_results.tsv \
                               -K tests/data/SRR8207674-kraken2_report.tsv \
                               -c tests/data/SRR8207674-centrifuge_results.tsv \
@@ -81,8 +81,8 @@ You should see the following log information:
     2019-04-16 13:40:34,333 INFO: Centrifuge found n=12 target reads not found with Kraken2 [in util.py:38]
     2019-04-16 13:40:34,333 INFO: Kraken2 found n=6176 target reads not found with Centrifuge [in util.py:40]
     2019-04-16 13:40:34,338 INFO: N=1701 reads unclassified by both Centrifuge and Kraken2. [in util.py:62]
-    2019-04-16 13:40:34,345 INFO: Writing n=9999 filtered reads from "tests/data/SRR8207674_1.viral_unclassified.seqtk_seed42_n10000.fastq.gz" to "r1.fq" [in cli.py:129]
-    2019-04-16 13:40:34,957 INFO: Writing n=9999 filtered reads from "tests/data/SRR8207674_2.viral_unclassified.seqtk_seed42_n10000.fastq.gz" to "r2.fq" [in cli.py:134]
+    2019-04-16 13:40:34,345 INFO: Writing n=9999 filtered reads from "tests/data/SRR8207674_1.viral_unclassified.seqtk_seed42_n10000.fastq.gz" to "r1.fq.gz" [in cli.py:129]
+    2019-04-16 13:40:34,957 INFO: Writing n=9999 filtered reads from "tests/data/SRR8207674_2.viral_unclassified.seqtk_seed42_n10000.fastq.gz" to "r2.fq.gz" [in cli.py:134]
     2019-04-16 13:40:35,459 INFO: Done! [in cli.py:137]
 
 
@@ -96,4 +96,6 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 .. _Kraken2: https://ccb.jhu.edu/software/kraken2/
 .. _Centrifuge: https://ccb.jhu.edu/software/centrifuge/manual.shtml
-.. _screed: https://screed.readthedocs.io/en/latest/screed.html
+.. _seqtk: https://github.com/lh3/seqtk
+.. _pbgzip: https://anaconda.org/bioconda/pbgzip
+.. _Conda: https://conda.io/en/latest/

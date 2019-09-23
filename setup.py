@@ -12,9 +12,8 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = ['click==7.0',
-                'pandas==0.24.2',
-                'numpy==1.16.2',
-                'screed==1.0',
+                'pandas==0.25.1',
+                'numpy==1.17.2',
                 'attrs>=19.1.0']
 
 setup_requirements = ['pytest-runner', ]
@@ -52,6 +51,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/peterk87/filter_classified_reads',
-    version='0.1.0',
+    version='0.2.0',
     zip_safe=False,
 )

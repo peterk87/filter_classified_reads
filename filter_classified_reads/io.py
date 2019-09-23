@@ -1,7 +1,8 @@
-from typing import TextIO, Iterable
+import os
+import subprocess as sp
+from typing import Iterable
 
 import pandas as pd
-import screed
 
 
 def read_kraken_report(path):
@@ -18,7 +19,7 @@ def read_kraken2_results(path: str) -> pd.DataFrame:
     return pd.read_csv(path, sep='\t', header=None,
                        names=[k for k, v in kraken2_fields],
                        dtype={k: v for k, v in kraken2_fields}) \
-             .set_index('readID')
+        .set_index('readID')
 
 
 def read_centrifuge_results(path: str) -> pd.DataFrame:
@@ -37,31 +38,39 @@ def read_centrifuge_results(path: str) -> pd.DataFrame:
         .set_index('readID')
 
 
-def read_fai(path: str) -> pd.DataFrame:
-    """Read samtools faidx tab-delimited table into pd.DataFrame."""
-    cols = 'name length offset linebases linewidth qualoffset'.split()
-    return pd.read_csv(path,
-                       names=cols,
-                       sep='\t')\
-             .set_index('name')
+def write_reads_seqtk(reads_path: str, names: Iterable[str],
+                      output_path: str) -> None:
+    """Write reads with specified read names to an output file with seqtk and compress with pbgzip
 
+    Using the following command-line
+    `seqtk subseq reads.fq - | pbgzip -c > output.fq.gz`
+    use seqtk to pull out a set of reads by name into a parallel block gzipped
+    FASTQ file. Read names are provided via stdin.
 
-def fq_entry(fh: TextIO, read_id: str, read_index: pd.Series) -> str:
-    """Get the FASTQ read entry corresponding to samtools faidx information."""
-    fh.seek(read_index['offset'])
-    seq = fh.read(read_index['length'])
-    fh.seek(read_index['qualoffset'])
-    qual = fh.read(read_index['length'])
-    return f'@{read_id}\n{seq}\n+\n{qual}\n'
-
-
-def write_reads(screed_db: screed.openscreed.ScreedDB,
-                read_ids: Iterable[str],
-                out: str) -> None:
-    with open(out, 'w') as fh_out:
-        for read_id in read_ids:
-            rec: screed.screedRecord.Record = screed_db[read_id]
-            fh_out.write(f'@{read_id} {rec["annotations"]}\n'
-                         f'{rec["sequence"]}\n'
-                         f'+\n'
-                         f'{rec["quality"]}\n')
+    Args:
+        reads_path: FASTQ file path
+        names: read names
+        output_path: Output block Gzipped FASTQ file
+    Raises:
+        subprocess.CalledProcessError: if the subprocess returns a non-zero exit code
+        FileNotFoundError: if the output file doesn't exist
+    """
+    # TODO: make pbgzip optional? (pkruczkiewicz|2019-09-23 21:59:43.015)
+    cmd = f'seqtk subseq {reads_path} - | pbgzip -c > {output_path}'
+    p = sp.Popen(cmd,
+                 stderr=sp.PIPE,
+                 stdout=sp.PIPE,
+                 stdin=sp.PIPE,
+                 shell=True,
+                 encoding='utf8')
+    for name in names:
+        print(name, file=p.stdin)
+    stdout, stderr = p.communicate()
+    if p.returncode > 0:
+        raise sp.CalledProcessError(f'seqtk returned non-zero exit code '
+                                    f'({p.returncode}) with command\n{cmd}\n'
+                                    f'STDERR: {stderr}\n'
+                                    f'STDOUT: {stdout}')
+    if not os.path.exists(output_path):
+        raise FileNotFoundError(f'seqtk subseq did not output file at '
+                                f'"{output_path}" with command "{cmd}"')
