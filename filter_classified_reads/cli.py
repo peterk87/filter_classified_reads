@@ -7,12 +7,11 @@ import sys
 from typing import Optional, List
 
 import click
-import screed
 
 from filter_classified_reads.util import \
     parse_taxids_string, \
     compare_kraken2_and_centrifuge
-from filter_classified_reads.io import write_reads
+from filter_classified_reads.io import write_reads_seqtk
 from filter_classified_reads.target_classified_reads import \
     TargetClassifiedReads, \
     common_unclassified_reads, \
@@ -81,10 +80,7 @@ def main(reads1: str,
             'file!')
     logging.basicConfig(format=LOG_FORMAT, level=logging.INFO)
     parsed_taxids = try_parse_taxids(taxids)
-    reads1_screed = screed.read_fastq_sequences(reads1)
-    reads2_screed = None
     if reads2:
-        reads2_screed = screed.read_fastq_sequences(reads2)
         if output2 is None:
             raise click.UsageError(f'If paired reads are specified, you must '
                                    f'specify an output file for the filtered '
@@ -129,11 +125,11 @@ def main(reads1: str,
         logging.info(f'Writing n={len(filtered_read_ids)} filtered reads '
                      f'from "{reads1}" to "{output1}"')
 
-        write_reads(reads1_screed, filtered_read_ids, output1)
-        if reads2 and reads2_screed is not None and output2 is not None:
+        write_reads_seqtk(reads1, filtered_read_ids, output1)
+        if reads2 and output2 is not None:
             logging.info(f'Writing n={len(filtered_read_ids)} filtered reads '
                          f'from "{reads2}" to "{output2}"')
-            write_reads(reads2_screed, filtered_read_ids, output2)
+            write_reads_seqtk(reads2, filtered_read_ids, output2)
     logging.info('Done!')
 
 

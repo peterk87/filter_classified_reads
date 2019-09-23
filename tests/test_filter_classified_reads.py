@@ -25,7 +25,7 @@ c_results = os.path.abspath('tests/data/SRR8207674-centrifuge_results.tsv')
 
 
 def count_lines(path: str) -> int:
-    with open(path) as f:
+    with os.popen(f'zcat < {path}') as f:
         return sum([1 for l in f])
 
 
@@ -90,8 +90,8 @@ def test_command_line_interface():
     assert help_result.exit_code == 0
     assert 'Show this message and exit.' in help_result.output
     with runner.isolated_filesystem():
-        out1 = 'R1.fq'
-        out2 = 'R2.fq'
+        out1 = 'R1.fq.gz'
+        out2 = 'R2.fq.gz'
         test_run = runner.invoke(cli.main, ['-i', r1, '-I', r2,
                                             '-o', out1, '-O', out2,
                                             '-c', c_results, '-C', c_report,
