@@ -26,7 +26,7 @@ c_results = os.path.abspath('tests/data/SRR8207674-centrifuge_results.tsv')
 
 def count_lines(path: str) -> int:
     with os.popen(f'zcat < {path}') as f:
-        return sum([1 for l in f])
+        return sum(1 for l in f)
 
 
 def test_try_parse_taxids():
