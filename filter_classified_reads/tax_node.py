@@ -26,7 +26,7 @@ class TaxNode:
         nodes[0] += [root_node]
         for idx, row in df_kreport.iterrows():
             sciname = row.sciname
-            if sciname == 'unclassified' or sciname == 'root':
+            if sciname in ['unclassified', 'root']:
                 continue
             spaces = prefix_spaces(sciname)
             # print(sciname, spaces)
