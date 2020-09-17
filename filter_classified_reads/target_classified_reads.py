@@ -91,10 +91,7 @@ def find_target_read_ids(tcr: TargetClassifiedReads,
                      f'unique taxids including descendants.')
     else:
         node = tax_tree.viral_tax_node()
-        if node is not None:
-            all_taxids = node.taxids_set()
-        else:
-            all_taxids = set()
+        all_taxids = node.taxids_set() if node is not None else set()
         logging.info(f'Found {len(all_taxids)} unique viral Taxonomy IDs')
     df_target_taxids = subset_classifications_by_taxids(df_results, all_taxids)
     target_read_ids = set(df_target_taxids.index)

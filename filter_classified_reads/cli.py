@@ -80,11 +80,10 @@ def main(reads1: str,
             'file!')
     logging.basicConfig(format=LOG_FORMAT, level=logging.INFO)
     parsed_taxids = try_parse_taxids(taxids)
-    if reads2:
-        if output2 is None:
-            raise click.UsageError(f'If paired reads are specified, you must '
-                                   f'specify an output file for the filtered '
-                                   f'reverse reads with `-O/--output2`!')
+    if reads2 and output2 is None:
+        raise click.UsageError(f'If paired reads are specified, you must '
+                               f'specify an output file for the filtered '
+                               f'reverse reads with `-O/--output2`!')
 
     tcr = TargetClassifiedReads()
     if centrifuge_results and centrifuge_kreport:
@@ -126,7 +125,7 @@ def main(reads1: str,
                      f'from "{reads1}" to "{output1}"')
 
         write_reads_seqtk(reads1, filtered_read_ids, output1)
-        if reads2 and output2 is not None:
+        if reads2:
             logging.info(f'Writing n={len(filtered_read_ids)} filtered reads '
                          f'from "{reads2}" to "{output2}"')
             write_reads_seqtk(reads2, filtered_read_ids, output2)
