@@ -11,9 +11,9 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['click==7.0',
-                'pandas==0.25.1',
-                'numpy==1.17.2',
+requirements = ['click>=7.0',
+                'pandas>=0.25.1',
+                'numpy',
                 'attrs>=19.1.0']
 
 setup_requirements = ['pytest-runner', ]
@@ -31,6 +31,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Bio-Informatics'
     ],
@@ -51,6 +52,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/peterk87/filter_classified_reads',
-    version='0.2.0',
+    version='0.2.1',
     zip_safe=False,
 )
